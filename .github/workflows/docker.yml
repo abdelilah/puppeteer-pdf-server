@@ -23,3 +23,4 @@ jobs:
         context: .
         push: true
         tags: abdelilah/puppeteer-pdf-server:latest
+        push-args: --public
