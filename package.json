@@ -1,6 +1,6 @@
 {
 	"name": "puppeteer-pdf-server",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "A simple server to generate PDFs using puppeteer",
 	"author": "Abdelilah Sawab",
 	"license": "MIT",

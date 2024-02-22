@@ -18,5 +18,6 @@ COPY . .
 
 RUN npm install
 
+ENV CHROME_PATH /usr/bin/google-chrome
 EXPOSE 3000
 CMD ["npm", "start"]

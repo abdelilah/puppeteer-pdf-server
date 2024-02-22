@@ -7,7 +7,7 @@ let browser = null;
 const getBrowser = async () => {
 	if (!browser) {
 		browser = await puppeteer.launch({
-			executablePath: '/usr/bin/google-chrome',
+			executablePath: process.env.CHROME_PATH || undefined,
 			args: [' --no-sandbox'],
 		});
 	}
